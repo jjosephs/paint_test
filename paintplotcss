@@ -6285,7 +6285,8 @@ ul.tabs {
   min-height: 315px;
 }
 
-.template-collection p.h6 {
+.template-collection p.h6,
+.search-page p.h6{
   text-transform: initial;
   font-weight: bold;
   font-size: 1.12em;
@@ -8120,6 +8121,24 @@ body:not(.cro_search_test) .ui-autocomplete{
     margin:0px auto 10px;
     text-align: center;
 }
+
+@media (max-width: 767px){
+	.search-page .grid-uniform .grid__item{
+	  min-height: 400px;
+      clear: initial;
+  }
+}
+
+.search-money{
+  display:block;
+  font-weight:bold;
+  color:#26b522;
+}
+
+.template-search .reveal img{
+    margin-bottom:15px;
+}
+
 /*
 .mobile-nav__search button .fallback-text{
     display:none;
